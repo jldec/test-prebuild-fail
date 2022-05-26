@@ -6,3 +6,7 @@ tasks:
       exit 1
   - command: |
       echo hello
+
+github:
+  prebuilds:
+    addCheck: false
