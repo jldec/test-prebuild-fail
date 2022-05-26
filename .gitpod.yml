@@ -1,12 +1,8 @@
-# test-prebuild-fail
 
-#### .gitpod.yml
-```yaml
+# .gitpod.yml
 tasks:
   - init: |
       # fail prebuild
       exit 1
   - command: |
       echo hello
-```
-
